@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joel Jr. Balnaja — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo" aria-label="Home">
+        <img src="../assets/Logo.png" alt="" id="logo-img">
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link" id="contact-open">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta">
+        Contact Me
+        <span class="btn-icon"><img src="../assets/arrow_img-removebg-preview.png" alt=""></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="section hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-copy" data-reveal>
+        <p class="hero-greeting">Hi I'm</p>
+        <div class="typing-text">
+          <span class="typing"></span>
+          <span class="cursor"></span>
+        </div>
+        <a href="../assets/sample CV.pdf" class="btn btn-primary hero-cv" download target="_self">
+          Download CV
+          <span class="btn-icon"><img src="../assets/download_img-removebg-preview.png" alt=""></span>
+        </a>
+        <div class="social-row">
+          <a href="https://github.com/JjBalnaja" class="social-btn" aria-label="GitHub" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.65-4.04-1.65-.55-1.43-1.34-1.82-1.34-1.82-1.09-.77.08-.75.08-.75 1.21.09 1.84 1.28 1.84 1.28 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.27 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6.01 0c2.29-1.6 3.3-1.27 3.3-1.27.66 1.7.24 2.96.12 3.27.77.86 1.24 1.97 1.24 3.32 0 4.76-2.8 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.02 2.98-.02 3.38 0 .33.22.72.83.6C20.57 22.34 24 17.74 24 12.3 24 5.5 18.63 0 12 0z" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/jj-balnaja-251967291/" class="social-btn" aria-label="LinkedIn"
+            target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.37 4.25 5.44v6.3zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z" />
+            </svg>
+          </a>
+          <a href="https://www.upwork.com/freelancers/~0100cfee7a0182940b?mp_source=share" class="social-btn"
+            aria-label="Upwork" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M18.56 8.6c-1.9 0-3.36 1.24-3.94 3.09-.87-1.34-1.55-2.94-1.94-4.28h-2.12v5.72c0 1.14-.93 2.06-2.07 2.06s-2.07-.92-2.07-2.06V7.41H4.3v5.72c0 2.36 1.92 4.3 4.27 4.3 1.75 0 3.25-1.05 3.92-2.55.36.53.79 1.13 1.31 1.7l-1.35 6.34h2.21l.98-4.6c.83.54 1.79.86 2.9.86 2.62 0 4.75-2.15 4.75-4.83s-2.13-5.75-4.73-5.75zm0 8.35c-1.13 0-2.18-.51-3.02-1.32l.23-.95v-.03c.19-1.11.83-2.97 2.79-2.97 1.51 0 2.74 1.29 2.74 2.87 0 1.58-1.22 2.4-2.74 2.4z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="hero-blob">
+          <span class="hero-photo"><img src="../assets/hero-banner-img.png" alt="hero-photo"></span>
+          <div class="tech-orbit tech-1"><span title="React"><img src="../assets/1.png" alt=""></span></div>
+          <div class="tech-orbit tech-2"><span title="Tailwind"><img src="../assets/2.png" alt=""></span></div>
+          <div class="tech-orbit tech-3"><span title="CSS3"><img src="../assets/3.png" alt=""></span></div>
+          <div class="tech-orbit tech-4"><span title="JavaScript"><img src="../assets/4.png" alt=""></span></div>
+          <div class="tech-orbit tech-5"><span title="HTML5"><img src="../assets/5.png" alt=""></span></div>
+          <div class="tech-orbit tech-6"><span title="Excel"><img src="../assets/6.png" alt=""></span></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint">
+      Scroll to explore more
+      <span class="chevron">⌄</span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="about-inner">
+      <div class="about-text" data-reveal>
+        <h2 class="section-title">About Me</h2>
+        <p class="quote">"A little about who I am, what I value, and the journey that shaped me."</p>
+      </div>
+
+      <div class="about-photo" data-reveal>
+        <div class="photo-frame"><span><img src="../assets/Balnaja, Joel Jr. C. (Formal Picture).png" alt="about-img"></span></div>
+      </div>
+
+      <div class="about-body" data-reveal>
+        <p>I'm a passionate Full Stack Web Developer and Web Designer who enjoys turning ideas into modern, functional,
+          and visually appealing websites and web applications. I specialize in building responsive user interfaces,
+          developing reliable back-end systems, and creating seamless user experiences.</p>
+        <p>With skills in both web development and design, I can work across the entire development process — from
+          designing clean and intuitive layouts to developing powerful, scalable, and user-friendly web solutions. I'm
+          always eager to learn new technologies, solve challenging problems, and create digital experiences that make
+          an impact.</p>
+        <a href="../assets/sample CV.pdf" class="btn btn-primary" download target="_blank">
+          Download CV
+          <span class="btn-icon"><img src="../assets/download_img-removebg-preview.png" alt=""></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTISE -->
+  <section class="section expertise">
+    <div class="expertise-inner">
+      <h2 class="section-title" data-reveal>Expertise</h2>
+      <p class="quote" data-reveal id="quote-exp">"Turning what I know into results that matter."</p>
+
+      <div class="carousel" data-reveal>
+        <button class="carousel-arrow" id="expPrev" aria-label="Previous" ><img src="../assets/arrow_img-removebg-preview.png" alt="" id="left-car-arrow" class="car-arrow"></button>
+        <div class="carousel-track" id="expTrack">
+
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6">
+                <rect x="3" y="4" width="18" height="12" rx="1.5" />
+                <path d="M8 20h8M12 16v4" />
+                <path d="M7 8h4M7 11h6" />
+              </svg>
+            </div>
+            <h3>Full Stack Web Developer</h3>
+            <p class="p-exp">Builds both the front-end (user interface) and back-end (server, database, and logic) of websites and
+              applications.</p>
+            <a href="#projects" class="btn btn-primary btn-sm">Learn more</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6">
+                <rect x="3" y="4" width="18" height="14" rx="1.5" />
+                <path d="M3 9h18M7 13h6" />
+              </svg>
+            </div>
+            <h3>Web Designer</h3>
+            <p class="p-exp">Builds and improves the layout, look, and usability of websites.</p>
+            <a href="#projects" class="btn btn-primary btn-sm">Learn more</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M4 6h9v6H4z" />
+                <path d="M4 15h5v5H4zM14 15h6v5h-6z" />
+                <path d="M17 4v6M20 5l-3 3-2-2" />
+              </svg>
+            </div>
+            <h3>Data Entry Specialist</h3>
+            <p class="p-exp">Inputs, updates, and maintains information in digital databases or spreadsheets, ensuring data accuracy
+              and integrity.</p>
+            <a href="#projects" class="btn btn-primary btn-sm">Learn more</a>
+          </article>
+
+        </div>
+        <button class="carousel-arrow" id="expNext" aria-label="Next"><img src="../assets/arrow_img-removebg-preview.png" alt="" class="car-arrow"></button>
+      </div>
+      <div class="dots" id="expDots"></div>
+
+      <!-- TECH STACK -->
+      <div class="tech-stack-card" data-reveal>
+        <div class="tech-stack-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6">
+            <circle cx="12" cy="8" r="5" />
+            <path d="M9 18h6M10 21h4" />
+            <path d="M12 3v0" />
+          </svg>
+        </div>
+        <h3>My Tech Stack</h3>
+        <div class="tech-grid">
+          <span class="tech-chip" title="HTML5">HTML</span>
+          <span class="tech-chip" title="CSS3">CSS</span>
+          <span class="tech-chip" title="Tailwind CSS">≋</span>
+          <span class="tech-chip" title="JavaScript">JS</span>
+          <span class="tech-chip" title="React">⚛</span>
+          <span class="tech-chip" title="Svelte">S</span>
+          <span class="tech-chip" title="Google Sheets">Sheets</span>
+          <span class="tech-chip" title="WordPress">WP</span>
+          <span class="tech-chip" title="PHP">PHP</span>
+          <span class="tech-chip" title="Laravel">L</span>
+          <span class="tech-chip" title="Figma">Fg</span>
+          <span class="tech-chip" title="Illustrator">Ai</span>
+          <span class="tech-chip" title="Photoshop">Ps</span>
+          <span class="tech-chip" title="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.65-4.04-1.65-.55-1.43-1.34-1.82-1.34-1.82-1.09-.77.08-.75.08-.75 1.21.09 1.84 1.28 1.84 1.28 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.27 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6.01 0c2.29-1.6 3.3-1.27 3.3-1.27.66 1.7.24 2.96.12 3.27.77.86 1.24 1.97 1.24 3.32 0 4.76-2.8 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.02 2.98-.02 3.38 0 .33.22.72.83.6C20.57 22.34 24 17.74 24 12.3 24 5.5 18.63 0 12 0z" />
+            </svg>
+          </span>
+          <span class="tech-chip" title="npm">npm</span>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="education-card" data-reveal>
+        <h3><span class="edu-icon">🎓</span> Education</h3>
+        <div class="edu-row">
+          <div class="edu-label">3 Year<br>Course</div>
+          <div class="edu-divider"></div>
+          <div class="edu-detail">
+            <h4>Diploma in Information Technology</h4>
+            <p>Regional Training Center – Korea Philippines<br>Vocational Training Center, Davao</p>
+            <span class="edu-year">2023 – 2026</span>
+          </div>
+        </div>
+        <div class="edu-row">
+          <div class="edu-label">Senior High<br>School</div>
+          <div class="edu-divider"></div>
+          <div class="edu-detail">
+            <h4>Computer Systems Servicing</h4>
+            <p>Dr. Santiago Dakudao Sr. National High School</p>
+            <span class="edu-year">2020 – 2022</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <div class="certifications" data-reveal>
+        <h2 class="section-title">Certifications</h2>
+        <div class="timeline">
+
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h4>National Certificate III (NCIII)</h4>
+              <p class="cert-name">2D Animation</p>
+              <ul>
+                <li>Produce traditional key poses/drawings for animation</li>
+                <li>Create tradigital animation</li>
+                <li>Create 2D digital cut-out animation</li>
+                <li>Export animation to video file format</li>
+              </ul>
+              <a href="#" class="btn btn-dark btn-sm">View Certificate <span class="btn-icon">⌕</span></a>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h4>National Certificate III (NCIII)</h4>
+              <p class="cert-name">Visual Graphic Design</p>
+              <ul>
+                <li>Develop design for a logo, print media, UI/UX and packaging</li>
+                <li>Develop booth and product display</li>
+              </ul>
+              <a href="#" class="btn btn-dark btn-sm">View Certificate <span class="btn-icon">⌕</span></a>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h4>National Certificate II (NCII)</h4>
+              <p class="cert-name">Computer System Servicing</p>
+              <ul>
+                <li>Install and configure computer systems</li>
+                <li>Set up computer networks</li>
+                <li>Set up computer servers</li>
+                <li>Maintain and repair computer systems and networks</li>
+              </ul>
+              <a href="#" class="btn btn-dark btn-sm">View Certificate <span class="btn-icon">⌕</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="projects-inner">
+      <h2 class="section-title" data-reveal>My Projects</h2>
+      <p class="quote" data-reveal>"Through my projects, I turn plans into purpose."</p>
+
+      <div class="carousel" data-reveal>
+        <button class="carousel-arrow" id="projPrev" aria-label="Previous">←</button>
+        <div class="carousel-track" id="projTrack">
+
+          <article class="project-card">
+            <div class="project-overlay"></div>
+            <div class="project-content">
+              <h3>E-Commerce Website</h3>
+              <ul>
+                <li>Product list + product details</li>
+                <li>Add to cart &amp; cart management</li>
+                <li>Mock checkout flow</li>
+                <li>Filtering/sorting products</li>
+              </ul>
+              <a href="#" class="see-more">See More →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-overlay"></div>
+            <div class="project-content">
+              <h3>Data Gathering on E-Commerce</h3>
+              <ul>
+                <li>Website analytics</li>
+                <li>Sales and transactions</li>
+                <li>Market trends</li>
+                <li>Data integration and analysis</li>
+              </ul>
+              <a href="#" class="see-more">See More →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-overlay"></div>
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <ul>
+                <li>Responsive one-page layout</li>
+                <li>Interactive carousels</li>
+                <li>Contact form integration</li>
+                <li>Cross-browser tested</li>
+              </ul>
+              <a href="#" class="see-more">See More →</a>
+            </div>
+          </article>
+
+        </div>
+        <button class="carousel-arrow" id="projNext" aria-label="Next">→</button>
+      </div>
+      <div class="dots" id="projDots"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner">
+      <div data-reveal>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="quote">"Catch me up for more details"</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" data-reveal>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+
+        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <nav class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-divider"></div>
+      <div class="footer-social">
+        <span>Follow me on</span>
+        <div class="footer-social-icons">
+          <a href="#" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path
+                d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.11.82-.27.82-.6 0-.29-.01-1.06-.02-2.08-3.34.75-4.04-1.65-4.04-1.65-.55-1.43-1.34-1.82-1.34-1.82-1.09-.77.08-.75.08-.75 1.21.09 1.84 1.28 1.84 1.28 1.07 1.87 2.81 1.33 3.5 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.38-5.47-6.13 0-1.35.47-2.46 1.24-3.32-.12-.31-.54-1.57.12-3.27 0 0 1.01-.33 3.3 1.27a11.2 11.2 0 0 1 6.01 0c2.29-1.6 3.3-1.27 3.3-1.27.66 1.7.24 2.96.12 3.27.77.86 1.24 1.97 1.24 3.32 0 4.76-2.8 5.81-5.48 6.12.43.38.81 1.13.81 2.28 0 1.65-.02 2.98-.02 3.38 0 .33.22.72.83.6C20.57 22.34 24 17.74 24 12.3 24 5.5 18.63 0 12 0z" />
+            </svg>
+          </a>
+          <a href="#" aria-label="Upwork">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path
+                d="M18.56 8.6c-1.9 0-3.36 1.24-3.94 3.09-.87-1.34-1.55-2.94-1.94-4.28h-2.12v5.72c0 1.14-.93 2.06-2.07 2.06s-2.07-.92-2.07-2.06V7.41H4.3v5.72c0 2.36 1.92 4.3 4.27 4.3 1.75 0 3.25-1.05 3.92-2.55.36.53.79 1.13 1.31 1.7l-1.35 6.34h2.21l.98-4.6c.83.54 1.79.86 2.9.86 2.62 0 4.75-2.15 4.75-4.83s-2.13-5.75-4.73-5.75zm0 8.35c-1.13 0-2.18-.51-3.02-1.32l.23-.95v-.03c.19-1.11.83-2.97 2.79-2.97 1.51 0 2.74 1.29 2.74 2.87 0 1.58-1.22 2.4-2.74 2.4z" />
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path
+                d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.37 4.25 5.44v6.3zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Joel Jr. Balnaja. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
